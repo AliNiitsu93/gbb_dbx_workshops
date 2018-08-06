@@ -12,7 +12,7 @@
 
 # COMMAND ----------
 
-# MAGIC %fs ls /FileStore/tables/household_power_consumption.txt
+# MAGIC %fs ls /FileStore/tables/
 
 # COMMAND ----------
 
@@ -64,6 +64,14 @@ display(df_transformed)
 spark.sql("DROP TABLE IF EXISTS house_power_consumption")
 # df_transformed.write.saveAsTable("house_power_consumption", format = "parquet", mode = "overwrite", path = "/mnt/firstname-house-power-consumption")
 df_transformed.write.saveAsTable("house_power_consumption", format = "parquet", mode = "overwrite", path = "/mnt/house-power-consumption")
+
+# COMMAND ----------
+
+# MAGIC %fs ls /mnt
+
+# COMMAND ----------
+
+# MAGIC %fs ls /mnt/training-sources/
 
 # COMMAND ----------
 
