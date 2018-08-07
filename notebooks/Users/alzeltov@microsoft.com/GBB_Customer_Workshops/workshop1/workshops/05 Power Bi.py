@@ -47,13 +47,3 @@
 
 # MAGIC %md 
 # MAGIC ##![Spark Logo Tiny](https://kpistoropen.blob.core.windows.net/collateral/roadshow/logo_spark_tiny.png)[Azure Databricks & Power BI Integration Docs](https://docs.azuredatabricks.net/user-guide/bi/power-bi.html)
-
-# COMMAND ----------
-
-# MAGIC %md ####My Credentials
-# MAGIC * cluster url: `https://westus.azuredatabricks.net:443/sql/protocolv1/o/3076923482971570/kyleadb`
-# MAGIC * token: `dapi114a62e451ed0c7fada52860d1f2a2e6`
-# MAGIC -
-# MAGIC * VM: user: `kpistor`
-# MAGIC * Pass: `rnDYwfP5hV9OO!*6xHE@`
-# MAGIC     
